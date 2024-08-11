@@ -1,0 +1,36 @@
+body{
+    background: url(./images/photo_2024-08-11_17-13-14.jpg);
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+div{
+
+    margin-top: 300px;
+  border-left-style:inset;
+  border-bottom-style: outset;
+  display: inline-block;
+  border-color: rgb(74, 8, 131);
+
+}
+
+  
+@media (max-width: 600px){
+    body{
+        background-size: contain;
+        background-size: cover;
+        background-position:center ;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        
+    }
+   
+}

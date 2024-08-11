@@ -1,0 +1,40 @@
+
+button {
+background-color:blue;
+border-radius:20% ; 
+padding: 5px ;
+color: white;
+}
+
+div {
+ background-color:none;
+ display: inline-flex;
+ flex-direction: row;
+ flex-basis: 100px;
+ flex-shrink: 1;
+ flex-direction: row;
+ gap: 10px;
+
+
+}
+body{
+    background: url(./images/photo_2024-08-11_17-13-58.jpg);
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+
+@media (max-width: 600px){
+    body{
+        background-size: contain;
+        background-size: cover;
+        background-position:center ;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        
+    }
+   
+}

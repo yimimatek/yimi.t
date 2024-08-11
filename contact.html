@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CSS Box Model</title>
+  <link rel="stylesheet" href="contact.css"/>
+  
+
+</head>
+<body>
+
+  <h1>Contact to order us</h1>
+  <p>Feel free to contact us by filling the form bellow :</p>
+  <form>
+    <label for="Name">Name:</label><br>
+    <input type="text" id="Name" name="Name"placeholder="enter your name" required><br>
+    <div>
+      <label type="title">Title:</label>
+      <label>Mr.</label>
+      <input type="radio" id="Mr." name="title" value="Mr.">
+
+      <label>Mrs.</label>
+      <input type="radio" id="Mrs." name="title" value="Mrs."><br>
+
+    </div><br>
+
+   <label for="email">Email:</label><br>
+   <input type="email" id="email" name="email" placeholder="enter your email"><br>
+   <label for="phone">phone :</label><br>
+   <input type="tel" id="phone"placeholder="enter your number" name="phone" required><br>
+   <label for="Message">Message:</label> <br>
+   <textarea id="Message" name="Message" placeholder="tweet your message" required></textarea><br>
+   <input type="reset"> <br>
+   <input type="Submit" id="Submit" value="Submit">
+    </form>
+    <script src="/script.js"></script>
+  </body>

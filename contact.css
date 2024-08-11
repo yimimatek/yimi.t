@@ -1,0 +1,67 @@
+h1{
+
+    background:linear-gradient(#9b59b6,135deg, #71b7e6);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+body{
+    background:url(./images/images\ \(1\).jfif);
+    
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+p{
+   color:white;
+   font-family: 'Times New Roman', Times, serif; 
+   font-size:20px; 
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(4, 1, 20);
+}
+input{
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    border-right-color: #9b59b6;
+    margin: 5px 0;
+}
+ #Submit{
+    background:linear-gradient(135deg, #71b7e6, #9b59b6);
+    width:50% ;
+    height: 40px; 
+    letter-spacing: 1px;
+    border-radius:5px;
+    border: none;
+    color: white;
+    font-size: larger;
+
+
+}
+@media(max-width:600px){
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+   
+label{
+    font-size: 15px;
+    color: rgb(4, 1, 20);
+}
+body{
+    background-size: contain;
+    background-position:center ;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+}
